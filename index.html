@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--------------- MAIN ------------------->
+    <div class="main">
+        <!--================= HOME ============-->
+        <section class="home section" id="home">
+            <div class="header" id="header">
+                <div class="logo">
+                    <a href="/" class="imglogo">
+                        <img src="/assets/img/Logo.png" alt="">
+                    </a>
+                    <span>+0123456789</span>
+                </div>
+                <div>
+                    <nav class="container">
+                        <div class="nav_menu" id="nav-menu">
+                            <div class="nav_list ">
+                                <div class="nav_items">
+                                    <div class="rectangle"></div>
+                                    <li class="nav_item">Home
+                                    </li>
+                                    <div class="mega_menu">
+                                        <div class="menu_item">
+                                            <div class="menu_row">
+                                                <div class="row">
+                                                    <div class="rectangle"></div>
+                                                    <p>abc</p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="rectangle"></div>
+                                                    <p>abc</p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="rectangle"></div>
+                                                    <p>abc</p>
+                                                </div>
+                                            </div>
+                                            <div class="menu_img">
+                                                b
+                                            </div>
+                                            <div class="menu_content">
+                                                <h1>INTRODUCE</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav_items">
+                                    <div class="rectangle"></div>
+                                    <li class="nav_item">
+                                        About us
+                                        <i class="uil uil-angle-down "></i>
+                                    </li>
+                                    <div class="mega_menu">
+                                        <div class="menu_item">
+                                            <div class="menu_row">
+                                                <div class="row"
+                                                    onmouseover="showContentAndImage('INTRODUCE', 'The Company comprises dynamic qualified personnel, experienced in the field of offshore transportation and installation  ', 'assets/img/introduce.png')"
+                                                    onmouseout="resetContentAndImage()">
+                                                    <a>Introduce</a>
+                                                    <div class="rect"></div>
+                                                </div>
+                                                <div class="row"
+                                                    onmouseover="showContentAndImage('Our people', 'Content for Our People', 'assets/img/conditions.png')"
+                                                    onmouseout="resetContentAndImage()">
+                                                    <a>Our people</a>
+                                                    <div class="rect"></div>
+                                                </div>
+                                                <div class="row"
+                                                    onmouseover="showContentAndImage('QHSE', 'Content for QHSE', 'assets/img/introduce.png')"
+                                                    onmouseout="resetContentAndImage()">
+                                                    <a>QHSE</a>
+                                                    <div class="rect"></div>
+                                                </div>
+                                                <div class="row"
+                                                    onmouseover="showContentAndImage('ASSET AND FACILITY', 'Content for ASSET AND FACILITY', 'assets/img/introduce.png')"
+                                                    onmouseout="resetContentAndImage()">
+                                                    <a>ASSET AND FACILITY</a>
+                                                </div>
+                                            </div>
+                                            <div class="menu_img">
+                                                <img id="menu_image" src="" alt="">
+                                            </div>
+                                            <div class="menu_content">
+                                                <h1 id="menu_title">INTRODUCE</h1>
+                                                <p id="content">The Company comprises dynamic qualified personnel,
+                                                    experienced in the field of offshore transportation and installation
+                                                </p>
+                                                <a>See More +</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="nav_items">
+                                    <div class="rectangle"></div>
+                                    <li class="nav_item">Project</li>
+                                </div>
+                                <div class="nav_items">
+                                    <div class="rectangle"></div>
+                                    <li class="nav_item">Service
+                                        <i class="uil uil-angle-down "></i>
+                                    </li>
+                                </div>
+                                <div class="nav_items">
+                                    <div class="rectangle"></div>
+                                    <li class="nav_item">Careers</li>
+                                </div>
+                                <div class="nav_items">
+                                    <div class="rectangle"></div>
+                                    <li class="nav_item">News
+                                        <i class="uil uil-angle-down "></i>
+                                    </li>
+                                </div>
+                                <div class="nav_items">
+                                    <div class="rectangle"></div>
+                                    <li class="nav_item">Contact</li>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header_content">
+                    <div class="header_title">
+                        <h1 id="title1">
+                            Building For
+                        </h1>
+                        <h1 id="title2">
+                            Green
+                        </h1>
+                        <h1 id="title3">
+                            Enery
+                        </h1>
+                    </div>
+                    <div>
+                        <p class="description">
+                            We provide types of services for Wind Farm projects in Vietnam. With 153+ MW of Wind
+                            turbines
+                            installed since established, we are confident to provide the best services to our customer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="line_img">
+                <ul class="thumb">
+                    <li><img src="./assets/img/greenenery.png" alt=""
+                            onclick="imgSlider('url(./assets/img/greenenery.png)','Building For','Green','Enery','We provide types of services for Wind Farm projects in Vietnam. With 153+ MW of Wind turbines installed since established, we are confident to provide the best services to our customer.')">
+                    </li>
+                    <li><img src="./assets/img/park.png" alt=""
+                            onclick="imgSlider('url(./assets/img/park.png)','Victory','Park','','We provide types of services for Wind Farm projects in Vietnam. With 153+ MW of Wind turbines installed since established, we are confident to provide the best services to our customer.')">
+                    </li>
+                    <li><img src="./assets/img/conditions.png" alt=""
+                            onclick="imgSlider('url(./assets/img/conditions.png)','Site','Conditions','','We provide types of services for Wind Farm projects in Vietnam. With 153+ MW of Wind turbines installed since established, we are confident to provide the best services to our customer.')">
+                    </li>
+                </ul>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <!--=============== About us ==============-->
+        <section class="about" id="about">
+            <div class="about_introduce">
+                <div class="about_title">
+                    <div>
+                        About us
+                    </div>
+                    <span class="about_content">
+                        <span> Offshore Energy Installation </span>
+                        <br>
+                        OEI is your gateway to renewable energy and
+                        <span>
+                            Oil </span>
+                        &
+                        <span>Gas</span>
+                        solutions.
+                    </span>
+                    <div class="about_more">
+                        SEE MORE
+                    </div>
+                </div>
+                <div class="about_img">
+                    <div data-aos="fade-down-left" class="about_rectangle1"></div>
+                    <div data-aos="fade-right" class="about14"></div>
+                    <div data-aos="fade-down" class="about11"></div>
+                    <div data-aos="fade-left" class="about12"></div>
+                    <div class="about_rectangle2"></div>
+                    <div data-aos="fade-left" class="about15"></div>
+                    <div class="about_rectangle3"></div>
+                </div>
+            </div>
+            <div class="about_according">
+                offshore
+                <span>Energy</span>
+                installation
+            </div>
+            <div class="about_company">
+
+            </div>
+            <div class="">
+
+            </div>
+        </section>
+
+        <!-- =================  Company  =================== -->
+        <section class="company">
+            <div class="company_intro">
+                <div class="companyslide">
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="company_title">
+                                    We are <br>
+                                    <span>A MEMBER OF</span>
+                                    <p>
+                                        A business development organisation helping to make valuable connections between
+                                        businesses in the global energy sector.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="company_title">
+                                    We are 2<br>
+                                    <span>A MEMBER OF 2</span>
+                                    <p>
+                                        A business development organisation helping to make valuable connections between
+                                        businesses in the global energy sector.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="company_title">
+                                    We are 3<br>
+                                    <span>A MEMBER OF 3</span>
+                                    <p>
+                                        A business development organisation helping to make valuable connections between
+                                        businesses in the global energy sector.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swipernavigaiton">
+                            <div class="swiper-button-prev">
+                                <i class="uil uil-angle-right-b swiper-icon"></i>
+                            </div>
+
+                            <div class="swiper-button-next">
+                                <i class="uil uil-angle-left-b swiper-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div thumbsSlider="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="/assets/img/company/Subtract 1.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/img/company/Subtract 2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/img/company/Subtract 3.png" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="company_content">
+                    <span>Company value reflects its ability to generate future profits, management, and market
+                        position.</span>
+                </div>
+                <div class="company_counter">
+                    <div class="company_year">
+                        <div class="company_number">
+                            <div class="counter">
+                                2
+                            </div>
+                            <span>+</span>
+                        </div>
+                        <span>Founded Year</span>
+                    </div>
+                    <div class="company_year">
+                        <div class="company_number">
+                            <div class="counter">20</div>
+                            <span>+</span>
+                        </div>
+                        <span>personnel</span>
+                    </div>
+                    <div class="company_year">
+                        <div class="company_number">
+                            <div class="counter">14</div>
+                            <span>+</span>
+                        </div>
+                        <span>project</span>
+                    </div>
+                    <div class="company_year">
+                        <div class="company_number">
+                            <div class="counter">20</div>
+                            <span>+</span>
+                        </div>
+                        <span>clinnets & partners</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Sustainability ==============-->
+        <section class="sustainability" id="sustainability">
+            <div class="sustainability_introduce ">
+                <div class="grid1">
+                    <div class="sustainability_title">
+                        <div>
+                            Our Comprehensive Service
+                        </div>
+                        <span class="sustainability_content">
+                            <span> Empowring <br> Sustainability </span>
+                        </span>
+                    </div>
+                    <div data-aos="fade-down-left" class="sustain1">
+                        <img src="/assets/img/sustain/sus1748.png" alt="">
+                    </div>
+                    <div data-aos="fade-right" class="sustain2">
+                        <img src="/assets/img/sustain/sus 217.png" alt="">
+                    </div>
+                    <div data-aos="fade-down" class="sustain3">
+                        <img src="/assets/img/sustain/sus178.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="grid2">
+                    <div data-aos="fade-left" class="sustain6">
+                        <img src="/assets/img/sustain/sus.png" alt="" srcset="">
+                    </div>
+                    <div data-aos="fade-left" class="sustain4">
+                        <img src="/assets/img/sustain/sus178.png" alt="">
+                    </div>
+                    <div data-aos="fade-right" class="sustain5">
+                        <img src="/assets/img/sustain/image 1782.png" alt="" srcset="">
+                    </div>
+                    <div data-aos="fade-up-right" class="sustain7">
+                        <img src="/assets/img/sustain/sus 1.png" alt="">
+                    </div>
+                    <div class="sus10">
+                        <div class="rect9">
+                            10+
+                            <span>
+                                Engineers work in OEI
+                            </span>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up-left" class="sustain8">
+                        <img src="/assets/img/sustain/sus9721.png" alt="" srcset="">
+                    </div>
+                    <div class="sustainability_more">
+                        SEE MORE
+                    </div>
+                </div>
+            </div>
+            <div class="sustainability_according">
+                building for
+                <span>green</span>
+                energy
+            </div>
+
+        </section>
+    </div>
+    <!-- ================= NEWS LETTER ============= -->
+    <!-- Slider main container -->
+    <div class="newsletter">
+        <div class="news_title">
+            <div>
+                News <br>
+                <span>Lastest News</span>
+            </div>
+            <div class="newsmore">
+                See More
+            </div>
+        </div>
+        <div class="newslide swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                <div class="slidenews swiper-slide" data-swiper-autoplay="2000">
+                    <div>
+                        <img src="/assets/img/news.png" alt="">
+                    </div>
+                    <div>
+                        01/01/2023
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur. Quisque curabitur nunc diam laoreet.
+                    </div>
+                    <div>
+                        See more
+                    </div>
+                </div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+            <!-- If we need navigation buttons -->
+
+            <div class="swipernavigaiton">
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-right-b swiper-icon"></i>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-left-b swiper-icon"></i>
+                </div>
+            </div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+
+    <!---------------- FOOTER ---------------->
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="col logofooter">
+                <div class="logoft">
+                </div>
+                <span>Offshore Energy Installation JSC</span>
+            </div>
+            <div class="col col1">
+                <span>ABOUT</span>
+                <span>PROJECTS</span>
+                <span>CLIENTS & PARTNERS</span>
+                <span>NEWS & EVENT</span>
+                <span>SUSTAINABILITY</span>
+                <span>DOWNLOAD PROFILE COMPANY</span>
+            </div>
+            <div class="col col2">
+                <span>CAREERS</span>
+                <span>CONTACT</span>
+                <span>BLOG</span>
+                <span>FAQ</span>
+                <span>DISCLAIMER</span>
+                <span>PRIVACY POLICY</span>
+            </div>
+            <div class="col col3">
+                <span class="col3title">Sign up for email to receive the latest information</span>
+                <span class="footer_desc">Lorem ipsum dolor sit amet consectetur. Aliquam sed blandit rhoncus id dictum.
+                </span>
+                <div>
+                    <input type="text" placeholder="your email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path d="M1 10.8904L10.7805 1.10986" stroke="#F5F5F5" stroke-opacity="0.5" />
+                        <path d="M1.97955 1.10986H10.782V9.9123" stroke="#F5F5F5" stroke-opacity="0.5" />
+                    </svg>
+                    <div class="col3_line"></div>
+                </div>
+                <div class="iconft">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path
+                            d="M3.65187 0.000488281C1.6289 0.000488281 0 1.62938 0 3.65236V16.3486C0 18.3716 1.6289 20.0005 3.65187 20.0005H10.5331V12.1817H8.46562V9.36673H10.5331V6.96173C10.5331 5.07224 11.7547 3.33736 14.5687 3.33736C15.7081 3.33736 16.5506 3.44674 16.5506 3.44674L16.4843 6.0755C16.4843 6.0755 15.6251 6.06738 14.6875 6.06738C13.6727 6.06738 13.51 6.53493 13.51 7.31113V9.36675H16.565L16.4318 12.1817H13.51V20.0005H16.3481C18.3711 20.0005 20 18.3716 20 16.3486V3.65238C20 1.62941 18.3711 0.000508281 16.3481 0.000508281H3.65185L3.65187 0.000488281Z"
+                            fill="white" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+                        <path
+                            d="M18.6034 2.53122C18.4953 2.13799 18.2832 1.77938 17.9885 1.4913C17.6937 1.20321 17.3266 0.995741 16.9239 0.88966C15.4417 0.500488 9.49995 0.500488 9.49995 0.500488C9.49995 0.500488 3.55821 0.500488 2.07596 0.88759C1.6731 0.993327 1.30583 1.20068 1.01104 1.48882C0.716244 1.77696 0.504301 2.13575 0.396494 2.52915C-4.58573e-05 3.9782 -4.57764e-05 7.00049 -4.57764e-05 7.00049C-4.57764e-05 7.00049 -4.58573e-05 10.0228 0.396494 11.4698C0.614909 12.2688 1.25955 12.8981 2.07596 13.1113C3.55821 13.5005 9.49995 13.5005 9.49995 13.5005C9.49995 13.5005 15.4417 13.5005 16.9239 13.1113C17.7425 12.8981 18.385 12.2688 18.6034 11.4698C19 10.0228 19 7.00049 19 7.00049C19 7.00049 19 3.9782 18.6034 2.53122ZM7.61268 9.77437V4.2266L12.5323 6.97979L7.61268 9.77437Z"
+                            fill="white" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path
+                            d="M5.00455 19.2218C4.24277 18.9344 3.55598 18.5237 2.93629 18.0126C1.42062 16.764 0.571999 15.1555 0.220711 13.2825C0.0523026 12.3848 0.000990825 11.4782 0.00493789 10.5691C0.0102006 9.51628 -0.0226916 8.46219 0.0325673 7.40937C0.120718 5.72714 0.491742 4.12503 1.45877 2.68948C2.23898 1.53112 3.27311 0.655043 4.55195 0.0447124C4.59537 0.0243681 4.63747 -0.009963 4.70721 0.00275222C4.22172 0.471944 3.80464 0.981824 3.45204 1.54002C2.63368 2.83825 2.16661 4.25599 1.94295 5.7513C1.66139 7.63443 1.76007 9.49975 2.28502 11.3371C2.60211 12.4497 3.06128 13.505 3.77175 14.4383C4.1283 14.9063 4.17304 15.3831 4.00331 15.9095C3.85332 16.3723 3.5994 16.7754 3.25863 17.1289C3.20337 17.1861 3.11785 17.2331 3.17969 17.3336C3.18232 17.4124 3.24679 17.4506 3.29547 17.4989C3.8349 18.0342 4.37565 18.5682 4.91508 19.1023C4.94929 19.1392 4.99534 19.1684 5.00455 19.2218Z"
+                            fill="white" />
+                        <path
+                            d="M5.00484 19.2225C4.99431 19.1691 4.94958 19.1399 4.91406 19.1043C4.37463 18.569 3.83388 18.0349 3.29445 17.5009C3.24577 17.4526 3.1813 17.4144 3.17867 17.3356C3.66942 17.431 4.16017 17.3903 4.64697 17.3203C5.25087 17.2326 5.83504 17.0699 6.39026 16.8194C6.46131 16.7876 6.51656 16.7863 6.58761 16.8232C8.20854 17.656 9.95183 18.068 11.7714 18.2091C13.8555 18.3719 15.8961 18.1697 17.8828 17.5251C18.5775 17.3 19.2445 17.0114 19.8774 16.6528C19.905 16.6375 19.9353 16.6286 19.9655 16.6172C19.9721 16.6248 19.98 16.6324 19.9892 16.6388C19.2972 17.6153 18.392 18.3566 17.317 18.9161C16.1132 19.543 14.8159 19.8278 13.466 19.9308C12.074 20.0363 10.6781 19.9944 9.28477 19.9829C7.9454 19.9715 6.6205 19.8265 5.35218 19.3675C5.24956 19.3306 5.14957 19.2861 5.04826 19.2442C5.03378 19.2365 5.018 19.2276 5.00352 19.22L5.00484 19.2225Z"
+                            fill="white" />
+                        <path
+                            d="M7.56956 7.05872C7.11696 7.05872 6.70384 7.05872 6.29071 7.05872C5.80391 7.05872 5.3171 7.05236 4.8303 7.06253C4.67899 7.06634 4.64347 7.02057 4.65136 6.88325C4.6632 6.68997 4.65926 6.49416 4.65268 6.29962C4.65005 6.20171 4.68294 6.16992 4.78556 6.16992C6.10914 6.17246 7.43404 6.17246 8.75762 6.16992C8.86156 6.16992 8.88919 6.20552 8.89182 6.30216C8.89709 6.5908 8.79841 6.83747 8.61027 7.06253C7.70902 8.14714 6.81172 9.23683 5.91442 10.3253C5.89206 10.3532 5.85522 10.3761 5.86443 10.4397C5.99468 10.4397 6.12756 10.4397 6.26045 10.4397C7.07881 10.4397 7.89585 10.4422 8.71421 10.4371C8.84709 10.4359 8.90761 10.4524 8.9063 10.6063C8.90367 11.2191 8.85893 11.2687 8.22082 11.2687C7.05907 11.2687 5.89732 11.2649 4.73557 11.2725C4.56847 11.2738 4.5369 11.2242 4.53427 11.0729C4.53032 10.8135 4.61452 10.6012 4.78293 10.4015C5.68286 9.33093 6.57753 8.25649 7.47351 7.18332C7.49588 7.15281 7.51825 7.12229 7.56956 7.05872Z"
+                            fill="white" />
+                        <path
+                            d="M12.3851 7.64351C12.3403 7.42226 12.4719 7.39938 12.6521 7.41209C12.8074 7.42354 12.964 7.41845 13.1192 7.41336C13.2205 7.40955 13.2534 7.44642 13.2534 7.54433C13.2508 8.74083 13.2508 9.93733 13.2534 11.1351C13.2534 11.2432 13.2166 11.2788 13.1074 11.2712C12.9916 11.2635 12.8745 11.2724 12.7574 11.2686C12.6179 11.2648 12.485 11.2139 12.4443 11.0855C12.3851 10.9011 12.3114 10.9774 12.2035 11.0334C11.4364 11.4314 10.6812 11.4047 9.96814 10.924C9.06426 10.315 8.83665 9.11593 9.43134 8.21951C10.0234 7.3269 11.2496 7.03699 12.2048 7.56213C12.2574 7.59265 12.3022 7.64224 12.3851 7.64351ZM12.3785 9.31047C12.3824 8.66581 11.8298 8.12542 11.1707 8.13177C10.5115 8.13813 9.96814 8.66073 9.96419 9.29395C9.96024 9.93098 10.4957 10.4599 11.1536 10.4676C11.8272 10.4752 12.3745 9.95768 12.3785 9.31047Z"
+                            fill="white" />
+                        <path
+                            d="M15.4814 9.27363C15.4814 8.14706 16.3958 7.27734 17.5799 7.27734C18.7154 7.27862 19.6416 8.17377 19.6495 9.27745C19.6561 10.3811 18.6983 11.3106 17.5576 11.3055C16.4011 11.3004 15.4814 10.4002 15.4814 9.27363ZM18.7746 9.29143C18.7746 8.64677 18.2286 8.11782 17.5628 8.11655C16.8839 8.11655 16.3419 8.64296 16.3445 9.30161C16.3471 9.94754 16.8944 10.4701 17.5628 10.4663C18.2338 10.4625 18.7759 9.93737 18.7746 9.29143Z"
+                            fill="white" />
+                        <path
+                            d="M14.8872 8.71389C14.8872 9.50351 14.8833 10.2944 14.8911 11.084C14.8925 11.234 14.8464 11.2836 14.6938 11.2696C14.5649 11.2582 14.4346 11.2697 14.3043 11.2671C14.0833 11.262 13.9754 11.1565 13.9636 10.9416C13.961 10.8984 13.9623 10.8539 13.9623 10.8094C13.9623 9.33567 13.9662 7.86197 13.957 6.38828C13.9557 6.20009 14.0123 6.1505 14.1951 6.16703C14.3557 6.18229 14.5201 6.17975 14.6806 6.16703C14.8385 6.15432 14.8911 6.20009 14.8885 6.36158C14.8819 7.1461 14.8872 7.93063 14.8872 8.71389Z"
+                            fill="white" />
+                        <path
+                            d="M19.9658 16.6174C19.9776 16.6111 19.9881 16.606 20 16.5996C19.996 16.6123 19.9934 16.6263 19.9895 16.639C19.9802 16.6339 19.9724 16.6263 19.9658 16.6174Z"
+                            fill="white" />
+                        <path
+                            d="M5.00288 19.2207C5.01736 19.2283 5.03314 19.2372 5.04762 19.2449C5.03314 19.2372 5.01867 19.2296 5.00288 19.2207Z"
+                            fill="white" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M19.905 10.0004C19.905 15.497 15.4491 19.9529 9.9525 19.9529C4.45588 19.9529 -1.52588e-05 15.497 -1.52588e-05 10.0004C-1.52588e-05 4.50374 4.45588 0.0478516 9.9525 0.0478516C15.4491 0.0478516 19.905 4.50374 19.905 10.0004ZM12.3551 6.92158C12.3551 6.539 12.6645 6.2352 13.0414 6.2352C13.424 6.2352 13.7278 6.539 13.7278 6.92158C13.7278 7.30415 13.4184 7.60796 13.0414 7.60796C12.6589 7.60796 12.3551 7.29852 12.3551 6.92158ZM10.0022 7.11419C8.41562 7.11419 7.12725 8.40256 7.12725 9.98911C7.12725 11.5757 8.41562 12.864 10.0022 12.864C11.5887 12.864 12.8771 11.5757 12.8771 9.98911C12.8771 8.40256 11.5831 7.11419 10.0022 7.11419ZM10.0022 11.8288C8.98948 11.8288 8.16245 11.0018 8.16245 9.98911C8.16245 8.97642 8.98948 8.14939 10.0022 8.14939C11.0149 8.14939 11.8419 8.97642 11.8419 9.98911C11.8419 11.0018 11.0149 11.8288 10.0022 11.8288ZM7.62284 15.8224H12.2812C14.2166 15.8224 15.7863 14.2471 15.7863 12.3173V7.65895C15.7863 5.72358 14.2166 4.15391 12.2812 4.15391H7.62284C5.68747 4.15391 4.1178 5.72358 4.1178 7.65895V12.3173C4.1178 14.2471 5.68747 15.8224 7.62284 15.8224ZM5.21488 7.65895C5.21488 6.33119 6.29509 5.25099 7.62284 5.25099H12.2812C13.609 5.25099 14.6892 6.33119 14.6892 7.65895V12.3173C14.6892 13.6451 13.609 14.7253 12.2812 14.7253H7.62284C6.29509 14.7253 5.21488 13.6451 5.21488 12.3173V7.65895Z"
+                            fill="white" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">
+                        <path
+                            d="M17.905 8.18896C17.7453 8.20476 17.5801 8.21003 17.4149 8.21529C15.6251 8.21529 13.9565 7.35166 12.9763 5.91928V13.7289C12.9763 16.9201 10.2724 19.5005 6.94065 19.5005C3.60343 19.5005 0.905014 16.9149 0.905014 13.7289C0.905014 10.5376 3.60893 7.95725 6.94065 7.95725C7.06731 7.95725 7.18846 7.96778 7.31512 7.97305V10.8167C7.18846 10.8009 7.06731 10.7799 6.94065 10.7799C5.239 10.7799 3.85675 12.1017 3.85675 13.7289C3.85675 15.3561 5.239 16.6779 6.94065 16.6779C8.6423 16.6779 10.1457 15.393 10.1457 13.7657L10.1732 0.500488H13.0203C13.2902 2.94395 15.3443 4.85027 17.905 5.02932V8.18896Z"
+                            fill="white" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="footer_line"></div>
+        <div class="footer_address">
+            <span>ADDRESS</span>
+            <span>2nd floor, No.44, 30/4 Rd., Ward 9, Vung Tau City, Vietnam</span>
+            <span></span>
+        </div>
+        <div class="footer_line"></div>
+        <div class="footer_contact">
+            <span>CONTACT</span>
+            <span>(+84) 254 6295268</span>
+            <span>info@oei.com.vn</span>
+        </div>
+    </footer>
+    <!--------------- Script ----------------->
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        const swiper = new Swiper('.newslide', {
+            // Optional parameters
+            loop: true,
+            slidesPerView: 4,
+            spaceBetween: 30,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-prev',
+                prevEl: '.swiper-button-next',
+            },
+            autoplay: true,
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            mousewheel: true,
+            keyboard: true,
+            waitForTransition: true,
+        });
+    </script>
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('.swiper', {
+                // Swiper options and configurations
+            });
+    
+            swiper.on('transitionEnd', function () {
+                var firstSlide = document.querySelector('.slidenews .swiper-slide');
+                if (swiper.activeIndex === 0) {
+                    firstSlide.classList.add('with-background');
+                } else {
+                    firstSlide.classList.remove('with-background');
+                }
+            });
+        });
+    </script> -->
+
+    <script>
+        var swipers = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 20,
+            slidesPerView: 3,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swipers2 = new Swiper(".mySwiper2", {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-prev",
+                prevEl: ".swiper-button-next",
+            },
+            thumbs: {
+                swiper: swipers,
+            },
+        });
+    </script>
+</body>
+
+</html>
