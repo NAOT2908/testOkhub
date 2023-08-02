@@ -77,17 +77,17 @@ a {
 
 .header_navbar {
     position: fixed;
-    
+
     background-color: transparent;
     width: 100%;
     transition: background-color 0.3s ease-in-out;
     z-index: 999;
-    
+
 }
 
 .header_navbar.scrolled {
     /* position: absolute; */
-    
+
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 100;
@@ -174,7 +174,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    margin: 201px 200px 149px ;
+    margin: 201px 200px 149px;
     /* 155.556% */
 }
 
@@ -199,7 +199,7 @@ a {
     gap: 25px;
     padding-bottom: 5px;
     position: relative;
-    
+
     /* 111.111% */
 }
 
@@ -377,6 +377,7 @@ a {
     flex-shrink: 0;
     border-radius: 50%;
     object-fit: cover;
+    border: 2px solid rgb(246, 249, 247);
     background: rgba(255, 255, 255, 0.00);
     box-shadow: 0px 0px 0px 2px #F9F0EC inset;
 }
@@ -916,6 +917,19 @@ a {
     line-height: 27px;
     /* 168.75% */
     text-transform: uppercase;
+}
+
+.company_counter .plus {
+    opacity: 0.800000011920929;
+    background: linear-gradient(180deg, #FFF 38.06%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 95px; */
+    /* 126.667% */
 }
 
 .company_counter .counter {
