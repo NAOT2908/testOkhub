@@ -34,7 +34,6 @@ function resetContentAndImage() {
   // menuDescription.textContent = '';
   // menuImage.src = '';
 
-  // Ẩn menu_content khi rời chuột ra khỏi row
   const menuContent = document.querySelector(".menu_content");
   menuContent.style.display = "none";
 }
