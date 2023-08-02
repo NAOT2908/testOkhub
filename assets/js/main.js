@@ -1,3 +1,16 @@
+
+
+// function handleScroll(){
+//   const navbar = document.getElementById("navbar");
+//   const offset = window.scrollY;
+//   if (offset > 200) {
+//     navbar.classList.add("scrolled");
+//   } else {
+//     navbar.classList.remove("scrolled");
+//   }
+// };
+// window.addEventListener("scroll", handleScroll);
+
 function showContentAndImage(title, description, imageUrl) {
   const menuTitle = document.getElementById("menu_title");
   const menuDescription = document.getElementById("content");
@@ -26,7 +39,7 @@ function resetContentAndImage() {
   menuContent.style.display = "none";
 }
 
-function imgSlider(anything,title1,title2,title3,description) {
+function imgSlider(anything, title1, title2, title3, description) {
   const bgheader = document.querySelector(".header");
   bgheader.style.backgroundImage = anything;
 
@@ -37,7 +50,6 @@ function imgSlider(anything,title1,title2,title3,description) {
 
   const textDescription = document.querySelector(".description");
   textDescription.textContent = description;
-  
 }
 
 // function changeColor(color){
@@ -46,10 +58,9 @@ function imgSlider(anything,title1,title2,title3,description) {
 
 // }
 
-
 // Hàm để tăng số trong các div có class "counter"
 function animateCounters() {
-  const counterElements = document.querySelectorAll('.counter');
+  const counterElements = document.querySelectorAll(".counter");
 
   counterElements.forEach((counterElement) => {
     const targetValue = parseInt(counterElement.innerText, 10);
@@ -68,4 +79,3 @@ function animateCounters() {
 }
 
 animateCounters();
-
